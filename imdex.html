@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nazmul.</title>
+    <link
+      class="rounded-circle"
+      rel="shortcut icon"
+      href="Images/code.png"
+      type="image/x-icon"
+    />
+
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/d38f21df05.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS/responsive.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!-- Navbar -->
+    <header class="header_wrapper">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="Images/logo.png"
+              class="img-fluid ms-3 rounded-5"
+              alt="logo"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav menu-navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item mt-3 mt-lg-0">
+                <a class="main-btn click" href="#contact"
+                  ><button type="button" class="btn btn-link">HIRE ME</button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar -->
+
+    <!-- Banner -->
+
+    <section id="home" class="banner_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center text-md-start">
+            <h6>AT A GLANCE</h6>
+            <h1>
+              Hi, I'am Nazmul
+              <span><br />Full-Stack Web Developer<br /></span>From Bangladesh.
+            </h1>
+            <div class="mt-4">
+              <a class="main-btn" href=""
+                ><button type="button" class="btn btn-link text-light">
+                  Download CV
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner -->
+
+    <!-- About -->
+    <section id="about" class="about_wrapper">
+      <div class="contianer p-5 pb-0">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-5 mb-4 mb-lg-0 user justify-content-center d-flex">
+            <img
+              src="/Images/user.jpg"
+              class="img-fluid rounded-5"
+              alt="nazmul"
+            />
+          </div>
+          <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+            <div class="my-3 mb-lg-0">
+              <span class="subtitle">Personal Information</span>
+              <h2>About Me</h2>
+              <p>
+                Hi, I'm Nazmul, an aspiring fullstack web developer with a
+                passion for building dynamic, responsive websites and
+                applications. I enjoy exploring new technologies and constantly
+                refining my skills to deliver efficient, scalable solutions. I'm
+                driven by a love for problem-solving and a commitment to
+                creating seamless digital experiences.
+              </p>
+
+              <div class="pt-4">
+                <ul
+                  class="nav nav-pills mb-3 justify-content-between"
+                  id="pills-tab"
+                  role="tablist"
+                >
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link active"
+                      id="pills-skill-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-skill"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-skill"
+                      aria-selected="true"
+                    >
+                      Skill Evaluation
+                    </button>
+                  </li>
+
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="pills-tools-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-tools"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-tools"
+                      aria-selected="false"
+                    >
+                      Tools
+                    </button>
+                  </li>
+
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="pills-education-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-education"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-education"
+                      aria-selected="false"
+                    >
+                      Education
+                    </button>
+                  </li>
+                </ul>
+
+                <div class="tab-content p-2" id="pills-tabContent">
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-skill"
+                    role="tabpanel"
+                    aria-labelledby="pills-skill-tab"
+                    tabindex="0"
+                  >
+                    <h6 class="mt-3">Designing</h6>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Basic example"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      <div class="progress-bar" style="width: 95%"></div>
+                    </div>
+                    <span class="label mb-5">95%</span>
+
+                    <h6 class="mt-3">Development</h6>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Basic example"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      <div class="progress-bar" style="width: 93%"></div>
+                    </div>
+                    <span class="label">93%</span>
+
+                    <h6 class="mt-3">Management</h6>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Basic example"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                    <span class="label">90%</span>
+
+                    <h6 class="mt-3">Communication</h6>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Basic example"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      <div class="progress-bar" style="width: 98%"></div>
+                    </div>
+                    <span class="label">98%</span>
+                  </div>
+
+                  <div
+                    class="tab-pane fade"
+                    id="pills-tools"
+                    role="tabpanel"
+                    aria-labelledby="pills-tools-tab"
+                    tabindex="0"
+                  >
+                    <div class="row gap-2 mb-2">
+                      <div class="col rounded-3 p-3 tool">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-bootstrap me-2"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377z"
+                          ></path>
+                          <path
+                            d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3z"
+                          ></path></svg
+                        >Bootstrap
+                      </div>
+                      <div class="col rounded-3 p-3 tool">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-wordpress me-2"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M12.633 7.653c0-.848-.305-1.435-.566-1.892l-.08-.13c-.317-.51-.594-.958-.594-1.48 0-.63.478-1.218 1.152-1.218q.03 0 .058.003l.031.003A6.84 6.84 0 0 0 8 1.137 6.86 6.86 0 0 0 2.266 4.23c.16.005.313.009.442.009.717 0 1.828-.087 1.828-.087.37-.022.414.521.044.565 0 0-.371.044-.785.065l2.5 7.434 1.5-4.506-1.07-2.929c-.369-.022-.719-.065-.719-.065-.37-.022-.326-.588.043-.566 0 0 1.134.087 1.808.087.718 0 1.83-.087 1.83-.087.37-.022.413.522.043.566 0 0-.372.043-.785.065l2.48 7.377.684-2.287.054-.173c.27-.86.469-1.495.469-2.046zM1.137 8a6.86 6.86 0 0 0 3.868 6.176L1.73 5.206A6.8 6.8 0 0 0 1.137 8"
+                          ></path>
+                          <path
+                            d="M6.061 14.583 8.121 8.6l2.109 5.78q.02.05.049.094a6.85 6.85 0 0 1-4.218.109m7.96-9.876q.046.328.047.706c0 .696-.13 1.479-.522 2.458l-2.096 6.06a6.86 6.86 0 0 0 2.572-9.224z"
+                          ></path>
+                          <path
+                            fill-rule="evenodd"
+                            d="M0 8c0-4.411 3.589-8 8-8s8 3.589 8 8-3.59 8-8 8-8-3.589-8-8m.367 0c0 4.209 3.424 7.633 7.633 7.633S15.632 12.209 15.632 8C15.632 3.79 12.208.367 8 .367 3.79.367.367 3.79.367 8"
+                          ></path></svg
+                        >WordPress
+                      </div>
+                      <div class="col rounded-3 p-3 tool">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-code-square me-2"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"
+                          ></path>
+                          <path
+                            d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0m2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0"
+                          ></path></svg
+                        >MS Visual Studios
+                      </div>
+                    </div>
+                    <div class="row gap-2 mb-2">
+                      <div class="col rounded-3 p-3 tool">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-x-diamond me-2"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M7.987 16a1.53 1.53 0 0 1-1.07-.448L.45 9.082a1.53 1.53 0 0 1 0-2.165L6.917.45a1.53 1.53 0 0 1 2.166 0l6.469 6.468A1.53 1.53 0 0 1 16 8.013a1.53 1.53 0 0 1-.448 1.07l-6.47 6.469A1.53 1.53 0 0 1 7.988 16zM7.639 1.17 4.766 4.044 8 7.278l3.234-3.234L8.361 1.17a.51.51 0 0 0-.722 0M8.722 8l3.234 3.234 2.873-2.873c.2-.2.2-.523 0-.722l-2.873-2.873zM8 8.722l-3.234 3.234 2.873 2.873c.2.2.523.2.722 0l2.873-2.873zM7.278 8 4.044 4.766 1.17 7.639a.51.51 0 0 0 0 .722l2.874 2.873z"
+                          ></path></svg
+                        >Canva
+                      </div>
+                      <div class="col rounded-3 p-3 tool">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-file-earmark-word me-2"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M5.485 6.879a.5.5 0 1 0-.97.242l1.5 6a.5.5 0 0 0 .967.01L8 9.402l1.018 3.73a.5.5 0 0 0 .967-.01l1.5-6a.5.5 0 0 0-.97-.242l-1.036 4.144-.997-3.655a.5.5 0 0 0-.964 0l-.997 3.655L5.485 6.88z"
+                          ></path>
+                          <path
+                            d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"
+                          ></path></svg
+                        >MS Word
+                      </div>
+                      <div class="col rounded-3 p-3 tool">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-headphones me-2"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M8 3a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V8a6 6 0 1 1 12 0v5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1V8a5 5 0 0 0-5-5"
+                          ></path></svg
+                        >Headphone
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-pane fade p-2"
+                    id="pills-education"
+                    role="tabpanel"
+                    aria-labelledby="pills-education-tab"
+                    tabindex="0"
+                  >
+                    <ul class="text-start ps-0">
+                      <li>
+                        <a href="#">
+                          BSC in CSE,
+                          <span>Daffodil International University</span> </a
+                        >2020 - 2024
+                      </li>
+                      <li>
+                        <a href="#">
+                          HSC,
+                          <span>GOV Rajendra College, Faridpur</span> </a
+                        >2017 - 2019
+                      </li>
+                      <li>
+                        <a href="#">
+                          SSC,
+                          <span>Faridpur Zilla School, Faridpur</span> </a
+                        >2012 - 2016
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+
+    <!-- Services -->
+    <section class="service_wrapper" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-4">
+            <span class="subtitle">What Can I Do For You! </span>
+            <h2>The Services That I provide</h2>
+            <p></p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div
+                  class="col-md-4 justify-content-center align-items-center d-flex p-2"
+                >
+                  <img
+                    src="/Images/service/react.png"
+                    class="img-fluid w-75"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title text-center mb-4">
+                      Front End - REACT
+                    </h5>
+                    <p class="text-center">
+                      I build fast, dynamic web apps with React, ensuring
+                      responsive design and efficient, scalable code.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div
+                  class="col-md-4 justify-content-center align-items-center d-flex p-2"
+                >
+                  <img
+                    src="/Images/service/node.png"
+                    class="img-fluid w-75 rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title text-center mb-4">
+                      Back End - NODE.JS
+                    </h5>
+                    <p class="text-center">
+                      I build fast, scalable backends with Node.js, ensuring
+                      efficient performance and smooth API integration.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div
+                  class="col-md-4 justify-content-center align-items-center d-flex p-2"
+                >
+                  <img
+                    src="/Images/service/mongodb.png"
+                    class="img-fluid w-75 rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title text-center mb-4">
+                      Back End - mongoDB
+                    </h5>
+                    <p class="text-center">
+                      I use MongoDB for flexible, scalable data storage in
+                      dynamic web applications.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div
+                  class="col-md-4 justify-content-center align-items-center d-flex p-2"
+                >
+                  <img
+                    src="/Images/service/Express-js.png"
+                    class="img-fluid w-75"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title text-center mb-4">
+                      Back End - Express.JS
+                    </h5>
+                    <p class="text-center">
+                      I use Express.js to build efficient web servers and APIs,
+                      streamlining routing and middleware management.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div
+                  class="col-md-4 justify-content-center align-items-center d-flex p-2"
+                >
+                  <img
+                    src="/Images/service/figma.png"
+                    class="img-fluid rounded-start w-75"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title text-center mb-4">UI/UX - Figma</h5>
+                    <p class="text-center">
+                      I use Figma for collaborative UI/UX design, creating
+                      prototypes that enhance user experience.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div
+                  class="col-md-4 justify-content-center align-items-center d-flex p-2"
+                >
+                  <img
+                    src="/Images/service/github.png"
+                    class="img-fluid rounded-start w-75"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title text-center mb-4">
+                      Version Control - GitHub
+                    </h5>
+                    <p class="text-center">
+                      I use GitHub for version control and collaboration,
+                      managing code repositories effectively.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services -->
+
+    <!-- portfolio -->
+    <section class="protfolio_wrapper" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center mb-4">
+            <span class="subtitle">My Complete Projects</span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card p-0">
+              <span
+                style="background-image: url('Images/portfolio/Foodies.png')"
+              ></span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('Images/portfolio/App-Landing-Page.png');
+                "
+              ></span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('Images/portfolio/Christmas-Landing-Page.png');
+                "
+              ></span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('./Images/portfolio/E-Commerce-Website-Using-Bootstap-5.png');
+                "
+              ></span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('./Images/portfolio/Hashtag-Landing-Page.png');
+                "
+              ></span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('./Images/portfolio/Pizza-Landing-Page.png');
+                "
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio -->
+
+    <!-- Contact -->
+    <section class="contact_wrapper" id="contact">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-6 order-2 order-lg-1 pelg-5 text-start">
+            <h1 class="fs-2">HIRE ME.</h1>
+
+            <div class="row call_details mb-4">
+              <label for="" class="col-sm-3 col-lg-4">Call Me Directly</label>
+
+              <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                <a href="javascript:void(0)">+8801310489516</a>
+              </div>
+
+              <label for="" class="col-sm-3 col-lg-4">Email Me</label>
+
+              <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-start">
+                <a href="nazmul-15-14486@diu.edu.bd"
+                  >nazmul-15-14486@diu.edu.bd</a
+                >
+              </div>
+            </div>
+            <form action="">
+              <div class="input-group mb-3 col-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name..."
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <div class="input-group mb-3 col-6">
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="Your Phone..."
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+
+              <div class="input-group mb-3 col-6">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email..."
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                  autocomplete="off"
+                />
+              </div>
+
+              <div class="form-floating">
+                <textarea
+                  class="form-control mb-4"
+                  placeholder=""
+                  id="floatingTextarea2"
+                  style="height: 100px"
+                ></textarea>
+                <label for="floatingTextarea2">Write a Message..</label>
+              </div>
+
+              <a class="main-btn click" href="#contact"
+                ><button type="button" class="btn btn-link text-light">
+                  SUBMIT
+                </button>
+              </a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+
+
+    <!-- Footer -->
+     <section class="footer_wrapper">
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-lg-4 col-sm-12 text-light text-sm-center text-lg-start">© NAZMUL ISLAM SHIMUL</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+      
+          <ul class="nav justify-content-lg-end  justify-content-sm-center">
+            <li class="nav-item"><a href="#" class="nav-link px-2"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2"><i class="fa-brands fa-facebook"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2"><i class="fa-brands fa-github"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2"><i class="fa-brands fa-twitter"></i></a></li>
+          </ul>
+        </footer>
+      </div>
+     </section>
+    <!-- Footer -->
+
+
+    <!-- BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+  </body>
+</html>

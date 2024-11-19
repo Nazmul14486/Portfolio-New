@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: #FD4766;
+    --secondary-color: #0e1525;
+    --bg-dark-blue:#091020;
+
+    --primary-font: 'Poppins', sans-serif;
+    --primary-text: #FD4766;
+}
+
+body{
+    background-color: var(--secondary-color);
+    font-family: var(--primary-font);
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Custom CSS */
+::-webkit-scrollbar{
+    width: 6px;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--bg-dark-blue);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--primary-color);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+section{
+    padding: 50px 0;
+}
+
+.main-btn button{
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid var(--primary-color);
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 2px;
+}
+
+.main-btn button:hover{
+    background-color: #FD4766;
+    color: white;
+    transition: .5s;
+}
+
+h1{
+    font-size: 54px;
+    line-height: 68px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+}
+
+h1 span{
+    color: var(--primary-color);
+}
+
+h2{
+    font-size: 50px;
+    line-height: 1.3;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+
+h6{
+    font-size: 15px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    display: block;
+    color:lightgrey;
+    margin-bottom: 20px;
+}
+
+p{
+    color: lightgray;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.subtitle{
+    display:inline-block;
+    font-weight: 600;
+    letter-spacing: .5px;
+    line-height: 18px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    background-color: rgb(6, 136, 184);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+input:hover, input:focus, textarea:focus, textarea:hover, button{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+/* Navbar */
+.header_wrapper .navbar{
+    padding: 15px 0;
+    transition: all .2s linear;
+}
+
+.header_wrapper img{
+    max-width: 200px;
+}
+
+.header_wrapper .navbar-toggler{
+    border: 0;
+    color: black;
+}
+
+
+.header_wrapper ul li a:not(.click) {
+    position: relative;
+    margin-right: 20px;
+}
+
+.header_wrapper ul li a:not(.click)::after {
+    content: '';
+    height: 3px;
+    background: var(--primary-color);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    transition: 0.5s;
+}
+
+.header_wrapper ul li a:not(.click):hover::after {
+    width: 100%;
+}
+.header_wrapper ul li a:not(.click):hover {
+    color: black;
+}
+
+.header-scrolled{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: #0e1525;
+    box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .5);
+}
+
+.header-scrolled .nav-item .nav-link:hover{
+    color: var(--primary-color);
+}
+
+
+/* Banner */
+.banner_wrapper{
+    width: 100%;
+    height: 100vh;
+    min-height: 650px; /* Allow container to fit image */
+    
+    background-image: url(/Images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 300px 0 100px 0;
+}
+
+.user img{
+    width: 500px;
+}
+
+/* ABOUT */
+
+.about_wrapper ul.nav-pills{
+    border: 1px solid lightgrey;
+    border-radius: 50px;
+}
+
+.about_wrapper ul li .nav-link{
+    border-radius: 50px;
+    color: white !important;
+}
+
+.about_wrapper ul li .nav-link.active{
+    background-color: #FD4766;
+}
+
+.label{
+    position: absolute;
+    right: 0;
+    top:0;
+}
+
+.tab-pane li{
+    color: lightgray;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    list-style: none;
+}
+
+.tab-pane li a{
+    color: lightgray;
+    display: block;
+}
+
+/* Gradient color for progress bars */
+.progress-bar {
+    background: linear-gradient(90deg, #fda65b,  #fd4766); /* Gradient from one color to another */
+    height: 5px;
+}
+
+.progress{
+    height: 5px;
+}
+
+.about_wrapper .tool{
+    background: linear-gradient(90deg, #fda65b,  #fd4766); /* Gradient from one color to another */
+
+}
+
+/* service */
+
+.service_wrapper .card{
+    background-color: var(--bg-dark-blue);
+    color: var(--primary-text);
+    border-radius: 20px;
+    box-shadow: 0 0 16px 4px var(--bg-dark-blue);
+}
+
+.service_wrapper .card p{
+    color: white;
+}
+
+.service_wrapper .card:hover{
+    transform: translateY(-5px);
+    transition: .5s;
+    box-shadow: 9px 7px 13px rgba(12, 0, 46, .5);
+    cursor: pointer;
+}
+
+/* Portfolio */
+.protfolio_wrapper .card{
+    height: 100%;
+    min-height: 350px;
+    overflow: hidden; 
+    border: 1px solid white;
+    cursor: pointer;
+    box-shadow: 0 0 16px 4px var(--bg-dark-blue);
+    border-radius: 10px;
+}
+
+.protfolio_wrapper .card span{
+    transition: background-position 4s ease-in-out 0s; 
+    width: 100%;
+    height: 100%;
+    background-position: top center;
+    background-size: cover;
+}
+
+.protfolio_wrapper .card span:hover {
+    background-position: bottom center; /* Move to the bottom of the image on hover */
+}
+
+/* CONTACT */
+.contact_wrapper .form-control{
+    background-color:transparent;
+    color: white;
+    border-color: grey;
+}
+
+.contact_wrapper .form-control:hover{
+    border-color: #FD4766;
+}
+.contact_wrapper .form-control::placeholder{
+    color: lightslategray;
+}
+
+/* FOOTER */
+.footer_wrapper .nav-link{
+    color: lightgray;
+    width: 50px;
+}
+
+.footer_wrapper .nav-link:hover{
+    color: #FD4766;
+}
