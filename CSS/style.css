@@ -189,7 +189,7 @@ input:hover, input:focus, textarea:focus, textarea:hover, button{
     height: 100vh;
     min-height: 650px; /* Allow container to fit image */
     
-    background-image: url(../Images/background.jpg);
+    background-image: url(Images/background.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
